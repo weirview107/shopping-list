@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main {
+    font-size: 20px
+}
+p {
+    color: chocolate;
+}
+
+
+a {
+    background-color: rgb(0, 229, 255);
+    margin: 4%;
+    display: block;
+    
+}
+

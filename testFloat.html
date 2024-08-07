@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Test Float</title>
+    <link rel="stylesheet" href="./css/testFloat.css" />
+</head>
+
+<body>
+    
+    
+<!--    This is a comment
+-->   
+    <h1>Fottie Boss</h1>
+    
+    <p>
+        <img src="images/note.png" width="64" height="64" alt=""/> 
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, voluptas. Labore ducimus alias totam eveniet et obcaecati nulla, suscipit aperiam officiis rerum voluptate quasi ratione asperiores quos explicabo, doloremque molestiae assumenda, consequuntur velit. Reiciendis, vero expedita repellat reprehenderit perferendis magni deleniti!
+        
+    </p>
+
+    
+    
+    
+    
+    <div class="fixed">
+        <p>
+        I am m a paragragh inside a div
+        </p>
+        <p>
+        .... so am I am m a paragragh inside a div !!!
+        </p>
+
+    </div>
+    
+<table  border="1">
+  <tbody>
+    <tr>
+      <th scope="col">Running</th>
+      <th scope="col">Swimming</th>
+    </tr>
+    <tr>
+      <td>5K run on Monday and Sunday</td>
+      <td>20m lengths of swim Wednesday and Sunday</td>
+    </tr>
+    <tr>
+      <td colspan="2">Hours vary during the winter</td>
+    </tr>
+  </tbody>
+</table>
+
+    
+    <div>
+        <p>
+        I am a follow up ......
+        </p>
+    </div>
+    
+	<hr>
+	<article>
+	
+		<h2>Contact Me</h2>
+		<p> I'really like to hear from you</p>
+		<form action="https://httpbin.org/get" method="get">
+			<fieldset>
+				<legend>Personal Information</legend>
+				<p>
+					<label for="firstName">First Name</label>
+					<input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on" required autofocus>
+				</p>
+				<p>
+					<label for="lastName">Last Name</label>
+					<input type="text" name="lastName" id="lastName" placeholder="Doe" autocomplete="on" required>
+				</p>
+
+				<p>
+					<label for="password">Passworde</label>
+					<input type="password" name="password" id="password" placeholder="Your secret"  required>
+				</p>
+
+
+				<p>
+					<label for="phone">Phone</label>
+					<input type="tel" name="phone" id="phone" placeholder="555-555-5555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+				</p>
+
+
+				<p>
+					<label for="decade">Favorite Decadee</label>
+					<input type="number" name="decade" id="decade" min="1950" max="2020" step="10" value="1980" >
+				</p>
+
+				<p>
+					<label for="coffee">Favorite Coffee:</label>
+					<select name="coffee" id="coffee" multiple size="5">
+						<optgroup label="Regular Coffees">
+							<option value="americano">Americano</option>
+							<option value="regular coffee">Regular Coffee</option>
+							<option value="iced coffee">Iced Coffee</option>
+						</optgroup>	
+						<optgroup label="Mixed/Milked Espresso Coffees">					
+							<option value="latte" selected>Latte</option>
+							<option value="cappuchino">Cappuchino</option>
+							<option value="flat white">Flat White</option>
+							<option value="cortado">Cortadoe</option>
+						</optgroup>	
+						<option value="other">Other</option>
+					</select>
+				</p>
+
+				<!--
+				<p>
+					<label for="coffee">Favorite Coffee:</label>
+					<input type="text" name="coffee" id="coffee" list="coffee-list" >
+					<datalist id="coffee-list">
+						<option value="Americano in Starbucks">
+						<option value="Regular coffee at home">
+						<option value="Iced coffee abroad">
+						<option value="Latte in Insomnia">
+						<option value="Cappuchino in O'Briens">
+						<option value="Flat White from Maeve">
+						<option value="Cortado (unusual)">
+						<option value="Other">
+					</datalist>
+				</p>
+	-->
+			</fieldset>
+			<br>
+			<fieldset>
+				<legend>What is yur favorite food</legend>
+				<p>
+					<input type="radio" name="food" id="tacos" value="tacos">
+					<label for="tacos">Tacos</label>
+				</p>
+				<p>
+					<input type="radio" name="food" id="pizza" value="pizza">
+					<label for="pizza">Pizzas</label>
+				</p>
+				<p>
+					<input type="radio" name="food" id="curry" value="curry">
+					<label for="curry">Lamb Curry</label>
+				</p>
+				<p>
+					<input type="radio" name="food" id="other" value="other">
+					<label for="other">Other</label>
+				</p>
+			</fieldset>
+			
+			
+			<br>
+			<fieldset>
+				<legend>Do you have pets?</legend>
+				<p>
+					<input type="checkbox" name="pets" id="dog" value="dog">
+					<label for="dog">Dog ('cause you're a doggy lover)</label>
+				</p>
+				<p>
+					<input type="checkbox" name="pets" id="cat" value="cat">
+					<label for="cat">Cat or kiity to those in the know)</label>
+				</p>
+				<p>
+					<input type="checkbox" name="pets" id="donkey" value="donkey">
+					<label for="donkey">A donkey (maybe even rescued)</label>
+				</p>
+				<p>
+					<input type="checkbox" name="pets" id="otherPet" value="otherPet">
+					<label for="othePet">Other</label>
+				</p>
+			</fieldset>
+
+			<br>
+			<fieldset>
+				<legend>Send me a note</legend>
+				<p>
+					<label for="message">Your Message:</label>
+					<textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+				</p>
+			</fieldset>
+			<br>
+			<button type="submit">Submit data please</button>
+		</form>
+	
+		
+		
+		
+	
+	</article>
+	
+	
+	
+    
+    <video width="600" height="400" controls>
+        <source src="videos/trenbybeach.mp4" type="video/mp4"/>
+        <source src="videos/trenbybeach.mov" type="video/quicktime"/>
+         <track src="captions/vtt/sintel-en.vtt"      kind="subtitles"
+
+        label="English"
+        srclang="en"
+        default />
+    </video>
+    
+    
+    
+</body>
+</html>
